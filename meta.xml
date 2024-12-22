@@ -1,0 +1,13 @@
+<meta>
+    <info author="NFL Temp" version="1.0.0" name="Safe Cracking" description="Interactive safe cracking minigame" type="script"/>
+    <script src="config.lua" type="shared" cache="false"/>
+    <script src="client.lua" type="client" cache="false"/>
+    
+    <!-- Commands -->
+    <export function="showKeypad" type="client"/>
+    <export function="hideKeypad" type="client"/>
+    
+    <!-- Credits -->
+    <min_mta_version client="1.5.9" server="1.5.9"/>
+    <download_priority_group>-1</download_priority_group>
+</meta> 
