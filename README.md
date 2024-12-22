@@ -1,5 +1,8 @@
 # Safe Cracking System
+![mta-screen_2024-12-21_23-54-36](https://github.com/user-attachments/assets/b2e33453-003b-4634-9735-a8d0af35d806)
+
 Created by NFL Temp
+![mta-screen_2024-12-21_23-55-10](https://github.com/user-attachments/assets/f97b2f17-588b-4a73-89d7-62491be661fc)
 
 ## Description
 An interactive safe cracking minigame for MTA:SA featuring multiple safes with unique number ranges and a keypad system.
