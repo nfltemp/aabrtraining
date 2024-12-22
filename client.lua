@@ -1,7 +1,6 @@
 --[[
-    Resource: Safe Cracking System
     Creator: NFL Temp
-    Description: Interactive safe cracking minigame with multiple safes and keypad system
+    Description: AA BR Safe Cracking
     Version: 1.0.0
 ]]
 
