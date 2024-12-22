@@ -301,7 +301,7 @@ local function createExitMarker()
     end)
 end
 
--- Add function to create safe markers
+-- Function to create safe markers
 local function createSafeMarkers()
     for _, markerData in ipairs(Config.safeMarkers) do
         if not crackedSafes[markerData.pos.x] then
