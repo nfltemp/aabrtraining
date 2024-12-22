@@ -140,7 +140,7 @@ createSafeCrackGUI = function()
     local enterButton = guiCreateButton(startX + (buttonW + padding) * 2, bottomY, 
         buttonW, buttonH, "Enter", false, guiWindow)
     
-    -- Add enter button handler
+    -- Enter button handler
     addEventHandler("onClientGUIClick", enterButton, function()
         local guess = tonumber(guiGetText(guiEdit))
         if not guess then
@@ -192,7 +192,7 @@ createSafeCrackGUI = function()
         end
     end, false)
 
-    -- Add keyboard handler for enter key
+    -- Keyboard handler for enter key
     addEventHandler("onClientKey", root, function(button, press)
         if not isKeypadVisible or not press then return end
         if button == "enter" then
@@ -212,7 +212,7 @@ createSafeCrackGUI = function()
     end)
 end
 
--- Function to show keypad
+-- Function for showing the keypad
 showKeypad = function(range)
     if not guiWindow then
         createSafeCrackGUI()
@@ -334,21 +334,21 @@ addEventHandler("onClientResourceStart", resourceRoot, function()
     createSafeMarkers()
 end)
 
--- Add cleanup on resource stop
+-- Cleanup on resource stop
 addEventHandler("onClientResourceStop", resourceRoot, function()
     if isElement(guiWindow) then
         destroyElement(guiWindow)
     end
 end)
 
--- Add key binding to close GUI
+-- Key binding to close GUI
 bindKey("escape", "down", function()
     if isKeypadVisible then
         hideKeypad()
     end
 end)
 
--- Add debug command for getting safe code
+-- Debug command for getting safe code
 addCommandHandler("getsafecode", function()
     if isKeypadVisible and targetPin then
         outputChatBox("Safe Code: " .. targetPin, 255, 255, 0)
@@ -357,7 +357,7 @@ addCommandHandler("getsafecode", function()
     end
 end)
 
--- Add reset command
+-- Reset command
 addCommandHandler("resetsafes", function()
     -- Clear cracked safes table
     crackedSafes = {}
