@@ -21,7 +21,7 @@ An interactive safe cracking minigame for MTA:SA featuring multiple safes with u
 ## Installation
 1. Place the resource in your MTA server's resources folder
 2. Start the resource using the command: start safecrack
-
+3. Go to grove street and enter the yellow marker to go to the safe cracking location.
 ## Configuration
 Edit config.lua to modify:
 - Safe locations and number ranges
