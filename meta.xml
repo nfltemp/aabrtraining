@@ -7,7 +7,7 @@
     <export function="showKeypad" type="client"/>
     <export function="hideKeypad" type="client"/>
     
-    <!-- Credits -->
+
     <min_mta_version client="1.5.9" server="1.5.9"/>
     <download_priority_group>-1</download_priority_group>
 </meta> 
